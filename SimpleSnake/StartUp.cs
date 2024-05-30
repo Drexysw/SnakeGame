@@ -1,4 +1,6 @@
-﻿namespace SimpleSnake
+﻿using SimpleSnake.Core;
+
+namespace SimpleSnake
 {
     using Utilities;
 
@@ -7,6 +9,8 @@
         public static void Main()
         {
             ConsoleWindow.CustomizeConsole();
+            Engine engine = new Engine();
+            engine.Run();
         }
     }
 }

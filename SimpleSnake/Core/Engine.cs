@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SimpleSnake.GameObjects;
 
 namespace SimpleSnake.Core
 {
@@ -10,7 +6,7 @@ namespace SimpleSnake.Core
     {
         internal void Run()
         {
-            throw new NotImplementedException();
+            Board board = new Board(5, 5);
         }
     }
 }
